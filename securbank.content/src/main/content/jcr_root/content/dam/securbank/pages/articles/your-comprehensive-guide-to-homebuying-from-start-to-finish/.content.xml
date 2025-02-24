@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8ed02d9c-ffe8-4a12-ad6c-830837da3d91">
+    <jcr:content
+        jcr:lastModified="{Date}2024-03-09T09:24:15.577Z"
+        jcr:lastModifiedBy="L425+00@adobeeventlab.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Your Comprehensive Guide to Homebuying: From Start to Finish"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                content="&lt;p>Buying a home is a significant financial milestone and a major investment in your future. Whether you're a first-time homebuyer or a seasoned homeowner, navigating the homebuying process can be complex. To help you achieve your homeownership goals, we've created a comprehensive guide to homebuying, from start to finish:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Assess Your Financial Readiness:&lt;/strong> Before diving into the homebuying process, assess your financial readiness by evaluating your credit score, saving for a down payment, and determining your budget for monthly mortgage payments.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Get Pre-Approved for a Mortgage:&lt;/strong> Obtain pre-approval for a mortgage to determine how much you can afford to borrow and demonstrate your seriousness as a buyer to sellers.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Find the Right Real Estate Agent:&lt;/strong> Work with a knowledgeable and experienced real estate agent who can guide you through the homebuying process, help you find properties that meet your criteria, and negotiate on your behalf.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Search for Your Dream Home:&lt;/strong> Begin your home search by identifying neighborhoods and properties that align with your preferences, budget, and lifestyle. Attend open houses, schedule private viewings, and consider factors such as location, amenities, and resale value.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Make an Offer:&lt;/strong> Once you've found the perfect home, work with your real estate agent to prepare and submit a competitive offer to the seller. Negotiate terms such as price, closing date, and contingencies to reach a mutually beneficial agreement.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Complete the Mortgage Process:&lt;/strong> Finalize your mortgage by providing documentation, undergoing underwriting, and securing financing for your home purchase. Work closely with your lender to ensure a smooth and timely mortgage approval process.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Conduct Inspections:&lt;/strong> Schedule home inspections to assess the condition of the property and identify any potential issues or defects. Use inspection findings to negotiate repairs or adjustments to the purchase agreement.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Close the Deal:&lt;/strong> Close the deal by signing legal documents, transferring funds, and officially taking ownership of the property. Coordinate with your real estate agent, lender, and closing agent to ensure a seamless closing process.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Move In and Enjoy Your New Home:&lt;/strong> Celebrate your homeownership journey by moving into your new home and making it your own. Settle into your new surroundings, explore your neighborhood, and start creating memories in your dream home.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p>Navigating the homebuying process can be overwhelming, but with the right guidance and resources, you can achieve your homeownership goals with confidence. By following these steps and working with trusted professionals, you can turn your dream of homeownership into a reality.&lt;/p>&#xa;&lt;hr>"
+                content_x0040_ContentType="text/html"
+                content_x0040_LastModified="{Date}2024-02-09T15:21:00.215Z"
+                image="/content/dam/securbank/pages/articles/guide-to-homebuying.jpg"
+                image_x0040_LastModified="{Date}2024-02-09T15:23:25.711Z"
+                relatedArticles="[/content/dam/securbank/pages/articles/smart-strategies-for-building-an-emergency-fund,/content/dam/securbank/pages/articles/maximizing-retirement-savings,/content/dam/securbank/pages/articles/navigating-the-college-financial-aid-process-tips-for-students-and-parents]"
+                relatedArticles_x0040_LastModified="{Date}2024-02-09T15:59:18.476Z"
+                slug="guide-to-homebuying"
+                slug_x0040_LastModified="{Date}2024-02-09T15:20:47.855Z"
+                title="Your Comprehensive Guide to Homebuying: From Start to Finish"
+                title_x0040_LastModified="{Date}2024-02-09T15:20:50.407Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="be2ee757-5ecd-4462-b9d0-ac03ddb417b5"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/page"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_content="&lt;p>Buying a home is a significant financial milestone and a major investment in your future. Whether you're a first-time homebuyer or a seasoned homeowner, navigating the homebuying process can be complex. To help you achieve your homeownership goals, we've created a comprehensive guide to homebuying, from start to finish:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Assess Your Financial Readiness:&lt;/strong> Before diving into the homebuying process, assess your financial readiness by evaluating your credit score, saving for a down payment, and determining your budget for monthly mortgage payments.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Get Pre-Approved for a Mortgage:&lt;/strong> Obtain pre-approval for a mortgage to determine how much you can afford to borrow and demonstrate your seriousness as a buyer to sellers.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Find the Right Real Estate Agent:&lt;/strong> Work with a knowledgeable and experienced real estate agent who can guide you through the homebuying process, help you find properties that meet your criteria, and negotiate on your behalf.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Search for Your Dream Home:&lt;/strong> Begin your home search by identifying neighborhoods and properties that align with your preferences, budget, and lifestyle. Attend open houses, schedule private viewings, and consider factors such as location, amenities, and resale value.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Make an Offer:&lt;/strong> Once you've found the perfect home, work with your real estate agent to prepare and submit a competitive offer to the seller. Negotiate terms such as price, closing date, and contingencies to reach a mutually beneficial agreement.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Complete the Mortgage Process:&lt;/strong> Finalize your mortgage by providing documentation, undergoing underwriting, and securing financing for your home purchase. Work closely with your lender to ensure a smooth and timely mortgage approval process.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Conduct Inspections:&lt;/strong> Schedule home inspections to assess the condition of the property and identify any potential issues or defects. Use inspection findings to negotiate repairs or adjustments to the purchase agreement.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Close the Deal:&lt;/strong> Close the deal by signing legal documents, transferring funds, and officially taking ownership of the property. Coordinate with your real estate agent, lender, and closing agent to ensure a seamless closing process.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Move In and Enjoy Your New Home:&lt;/strong> Celebrate your homeownership journey by moving into your new home and making it your own. Settle into your new surroundings, explore your neighborhood, and start creating memories in your dream home.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p>Navigating the homebuying process can be overwhelming, but with the right guidance and resources, you can achieve your homeownership goals with confidence. By following these steps and working with trusted professionals, you can turn your dream of homeownership into a reality.&lt;/p>&#xa;&lt;hr>"
+                string_x0040_slug="guide-to-homebuying"
+                string_x0040_title="Your Comprehensive Guide to Homebuying: From Start to Finish"/>
+        </indexedData>
+        <metadata
+            cq:tags="[securebank:article-types/beginner's-guide,securebank:article-types/homeownership,securebank:article-types/homebuying,securebank:article-types/real-estate]"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

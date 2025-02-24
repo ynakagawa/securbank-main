@@ -1,0 +1,51 @@
+query getTeaserListByPathAndVariation($path: ID!, $variation: String = "master") {
+  teaserListList(
+    limit: 1
+    filter: {_path: {_expressions: [{value: $path}]}}
+    variation: $variation
+    _assetTransform: {format: WEBP}
+  ) {
+    items {
+      _path
+      _model {
+        _path
+        title
+      }
+      _variation
+      _variations
+      _metadata {
+        stringMetadata {
+          name
+          value
+        }
+      }
+      title
+      style
+      relatedOffers {
+        ... on ServiceModel {
+          title
+          slug
+          description {
+            plaintext
+          }
+          icon {
+            ... on ImageRef {
+              _dynamicUrl
+            }
+          }
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+          }
+          _path
+          _model {
+            _path
+            title
+          }
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:tiff="http://ns.adobe.com/tiff/1.0/" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0" xmlns:dc="http://purl.org/dc/elements/1.1/"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="fd796a23-5a44-4a6c-8a80-5f44a1aa18bb">
+    <jcr:content
+        dam:assetState="processed"
+        dam:processingId="6311d592-2c56-4935-9cf9-15923cb4e9ac"
+        dam:processingRenditions="[cq5dam.preview.pdf,cqdam.machine.metadata.tags.json,cq5dam.web.1280.1280.jpeg,cq5dam.zoom.2048.2048.jpeg,cq5dam.thumbnail.140.100.png,cqdam.machine.metadata.features.json,cqdam.machine.metadata.colors.json,cq5dam.thumbnail.319.319.png,cqdam.metadata.xml,cq5dam.thumbnail.48.48.png,cqdam.text.txt]"
+        dam:processingRequestedDate="{Date}2024-02-09T14:50:22.370Z"
+        dam:runDMProcess="{Boolean}true"
+        dam:runPostProcess="{Boolean}true"
+        jcr:lastModified="{Date}2024-02-09T14:50:40.511Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:primaryType="dam:AssetContent">
+        <dam:failedRenditions jcr:primaryType="nt:unstructured">
+            <cq5dam.preview.pdf
+                jcr:primaryType="nt:unstructured"
+                message="Format pdf is not supported for jpg files"
+                reason="RenditionFormatUnsupported"/>
+            <cqdam.text.txt
+                jcr:primaryType="nt:unstructured"
+                message="Text extraction (fmt=txt) is not supported for jpg files"
+                reason="RenditionFormatUnsupported"/>
+        </dam:failedRenditions>
+        <metadata
+            cq:tags="[properties:orientation/landscape]"
+            dam:Bitsperpixel="{Long}24"
+            dam:extracted="{Date}2024-02-09T14:50:34.558Z"
+            dam:Fileformat="JPEG"
+            dam:MIMEtype="image/jpeg"
+            dam:Numberofimages="{Long}1"
+            dam:Numberoftextualcomments="{Long}0"
+            dam:Physicalheightindpi="{Long}-1"
+            dam:Physicalheightininches="{Decimal}-1.0"
+            dam:Physicalwidthindpi="{Long}-1"
+            dam:Physicalwidthininches="{Decimal}-1.0"
+            dam:predictedColors="{Long}[10040,11026,15022,16012]"
+            dam:Progressive="no"
+            dam:sha1="b3a0d271318a9166c76c0fd2cd1804d3857c0fd0"
+            dam:size="{Long}544838"
+            dc:format="image/jpeg"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"
+            tiff:BitsPerSample="{Long}[8,8,8]"
+            tiff:BitsPerSample_xmpArrayType="rdf:Seq"
+            tiff:ImageLength="{Long}1536"
+            tiff:ImageWidth="{Long}2688">
+            <imageFeatures
+                jcr:lastModified="{Date}2024-02-09T14:50:34.640Z"
+                jcr:primaryType="nt:unstructured"
+                haystack0="{Binary}\0"/>
+            <dam:colorDistribution jcr:primaryType="nt:unstructured">
+                <color1
+                    jcr:lastModified="{Date}2024-02-09T14:50:34.642Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.4037"
+                    name="LIGHT_BLUE"
+                    rank="{Long}1"
+                    rgb="{Long}[130,160,189]"/>
+                <color2
+                    jcr:lastModified="{Date}2024-02-09T14:50:34.643Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.2595"
+                    name="ROYAL_BLUE"
+                    rank="{Long}2"
+                    rgb="{Long}[58,103,133]"/>
+                <color3
+                    jcr:lastModified="{Date}2024-02-09T14:50:34.644Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.2166"
+                    name="GRAY"
+                    rank="{Long}3"
+                    rgb="{Long}[152,149,151]"/>
+                <color4
+                    jcr:lastModified="{Date}2024-02-09T14:50:34.645Z"
+                    jcr:mixinTypes="[dam:color]"
+                    jcr:primaryType="nt:unstructured"
+                    coverage="{Double}0.1203"
+                    name="DARK_GRAY"
+                    rank="{Long}4"
+                    rgb="{Long}[68,69,65]"/>
+            </dam:colorDistribution>
+            <predictedTags jcr:primaryType="nt:unstructured">
+                <cityscape_photography
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.479Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.983"
+                    isCustom="{Boolean}false"
+                    name="cityscape photography"/>
+                <borough
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.480Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.863"
+                    isCustom="{Boolean}false"
+                    name="borough"/>
+                <metropolitan_area
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.480Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.838"
+                    isCustom="{Boolean}false"
+                    name="metropolitan area"/>
+                <city
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.481Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.828"
+                    isCustom="{Boolean}false"
+                    name="city"/>
+                <downtown
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.481Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.794"
+                    isCustom="{Boolean}false"
+                    name="downtown"/>
+                <metropolis
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.481Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.769"
+                    isCustom="{Boolean}false"
+                    name="metropolis"/>
+                <urban_area
+                    jcr:lastModified="{Date}2024-02-09T14:50:40.482Z"
+                    jcr:primaryType="nt:unstructured"
+                    confidence="{Double}0.756"
+                    isCustom="{Boolean}false"
+                    name="urban area"/>
+            </predictedTags>
+        </metadata>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

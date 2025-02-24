@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="e62d5bd3-8dff-4366-9e5c-b300799e6cee">
+    <jcr:content
+        cq:name="understanding-credit-scores-decoding-the-numbers-behind-your-financial-health"
+        cq:parentPath="/content/dam/securbank/pages/articles"
+        jcr:lastModified="{Date}2024-03-09T09:24:34.946Z"
+        jcr:lastModifiedBy="L425+00@adobeeventlab.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Understanding Credit Scores: Decoding the Numbers Behind Your Financial Health"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-02-09T15:22:47.645Z">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                content="&lt;p>Your credit score is a critical factor in your financial health, impacting your ability to borrow money, secure favorable interest rates, and access financial opportunities. Understanding how credit scores are calculated and what factors influence them can help you manage your credit effectively. Here's a breakdown of the key components of credit scores and how they impact your financial well-being:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&#xa;&lt;p>&lt;b>What is a Credit Score?:&lt;/b> A credit score is a three-digit number that represents your creditworthiness based on your credit history. Lenders use credit scores to assess the risk of lending to you and determine loan terms.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>How Credit Scores are Calculated:&lt;/b> Credit scores are calculated based on several factors, including payment history, credit utilization, length of credit history, new credit accounts, and types of credit used.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Payment History:&lt;/b> Your payment history accounts for the largest portion of your credit score and reflects whether you have paid bills on time. Late payments, defaults, and bankruptcies can negatively impact your credit score.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Credit Utilization:&lt;/b> Credit utilization measures the amount of credit you are using compared to your available credit limits. Keeping credit card balances low relative to your credit limits can positively impact your credit score.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Length of Credit History:&lt;/b> The length of your credit history, including the age of your oldest and newest accounts, can influence your credit score. Generally, a longer credit history is viewed more favorably by lenders.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>New Credit Accounts:&lt;/b> Opening multiple new credit accounts within a short period can signal financial instability and may lower your credit score. Limiting new credit inquiries can help maintain a positive credit profile.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Types of Credit Used:&lt;/b> Lenders consider the mix of credit accounts you have, such as credit cards, installment loans, and mortgages. A diverse credit portfolio can demonstrate responsible credit management and positively impact your credit score.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p>Understanding how credit scores are calculated and what factors influence them can empower you to manage your credit effectively and improve your financial health. By maintaining good credit habits, such as paying bills on time, keeping credit card balances low, and monitoring your credit report regularly, you can build a solid credit history and achieve your financial goals.&lt;/p>"
+                content_x0040_ContentType="text/html"
+                content_x0040_LastModified="{Date}2024-02-09T15:59:41.354Z"
+                image="/content/dam/securbank/pages/articles/understanding-credit-scores.jpg"
+                image_x0040_LastModified="{Date}2024-02-09T15:22:47.464Z"
+                relatedArticles="[/content/dam/securbank/pages/articles/5-strategies-for-managing-debt-and-achieving-financial-freedom,/content/dam/securbank/pages/articles/smart-strategies-for-building-an-emergency-fund,/content/dam/securbank/pages/articles/navigating-the-college-financial-aid-process-tips-for-students-and-parents]"
+                relatedArticles_x0040_LastModified="{Date}2024-02-09T16:00:17.898Z"
+                slug="understanding-credit-scores"
+                slug_x0040_LastModified="{Date}2024-02-09T15:17:00.470Z"
+                title="Understanding Credit Scores: Decoding the Numbers Behind Your Financial Health"
+                title_x0040_LastModified="{Date}2024-02-09T15:17:02.985Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="9ce90993-6897-4df4-b707-3ea09d4cec9f"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/page"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_content="&lt;p>Your credit score is a critical factor in your financial health, impacting your ability to borrow money, secure favorable interest rates, and access financial opportunities. Understanding how credit scores are calculated and what factors influence them can help you manage your credit effectively. Here's a breakdown of the key components of credit scores and how they impact your financial well-being:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&#xa;&lt;p>&lt;b>What is a Credit Score?:&lt;/b> A credit score is a three-digit number that represents your creditworthiness based on your credit history. Lenders use credit scores to assess the risk of lending to you and determine loan terms.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>How Credit Scores are Calculated:&lt;/b> Credit scores are calculated based on several factors, including payment history, credit utilization, length of credit history, new credit accounts, and types of credit used.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Payment History:&lt;/b> Your payment history accounts for the largest portion of your credit score and reflects whether you have paid bills on time. Late payments, defaults, and bankruptcies can negatively impact your credit score.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Credit Utilization:&lt;/b> Credit utilization measures the amount of credit you are using compared to your available credit limits. Keeping credit card balances low relative to your credit limits can positively impact your credit score.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Length of Credit History:&lt;/b> The length of your credit history, including the age of your oldest and newest accounts, can influence your credit score. Generally, a longer credit history is viewed more favorably by lenders.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>New Credit Accounts:&lt;/b> Opening multiple new credit accounts within a short period can signal financial instability and may lower your credit score. Limiting new credit inquiries can help maintain a positive credit profile.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;b>Types of Credit Used:&lt;/b> Lenders consider the mix of credit accounts you have, such as credit cards, installment loans, and mortgages. A diverse credit portfolio can demonstrate responsible credit management and positively impact your credit score.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>&#xa;&lt;p>Understanding how credit scores are calculated and what factors influence them can empower you to manage your credit effectively and improve your financial health. By maintaining good credit habits, such as paying bills on time, keeping credit card balances low, and monitoring your credit report regularly, you can build a solid credit history and achieve your financial goals.&lt;/p>"
+                string_x0040_slug="understanding-credit-scores"
+                string_x0040_title="Understanding Credit Scores: Decoding the Numbers Behind Your Financial Health"/>
+        </indexedData>
+        <metadata
+            cq:tags="[securebank:article-types/financial-security,securebank:article-types/credit-history,securebank:article-types/credit-scores]"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

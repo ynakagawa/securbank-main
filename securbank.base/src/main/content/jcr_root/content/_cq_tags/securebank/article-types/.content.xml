@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:description="\0"
+    jcr:primaryType="cq:Tag"
+    jcr:title="Article Types"
+    sling:resourceType="cq/tagging/components/tag">
+    <investment/>
+    <basics/>
+    <beginner_x0027_s-guide/>
+    <wealth-building/>
+    <debt-management/>
+    <financial-freedom/>
+    <strategies/>
+    <budgeting/>
+    <financial-aid/>
+    <students/>
+    <parents/>
+    <tips/>
+    <retirement/>
+    <savings/>
+    <emergency-fund/>
+    <financial-planning/>
+    <homebuying/>
+    <real-estate/>
+    <homeownership/>
+    <credit-scores/>
+    <credit-history/>
+    <financial-security/>
+    <secure-future/>
+    <saving-money/>
+    <travel/>
+    <credit-cards/>
+    <benefits/>
+</jcr:root>

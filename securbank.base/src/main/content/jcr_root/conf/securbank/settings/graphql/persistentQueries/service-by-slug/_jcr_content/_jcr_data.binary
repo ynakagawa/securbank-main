@@ -1,0 +1,35 @@
+query GetServiceBySlug($slug: String!) {
+  serviceList(
+    limit: 1
+    filter: {slug: {_expressions: [{value: $slug}]}}
+    _assetTransform: {format: WEBP}
+  ) {
+    items {
+      slug
+      title
+      serviceCategory {
+        name
+        _path
+      }
+      description {
+        plaintext
+      }
+      icon {
+        ... on ImageRef {
+          _dynamicUrl
+        }
+      }
+      _metadata {
+        stringMetadata {
+          name
+          value
+        }
+      }
+      _path
+      _model {
+        _path
+        title
+      }
+    }
+  }
+}

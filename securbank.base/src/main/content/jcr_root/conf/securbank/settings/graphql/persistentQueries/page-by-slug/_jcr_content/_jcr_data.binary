@@ -1,0 +1,58 @@
+query getPageBySlugAndVariation($slug: String!, $variation: String = "master") {
+  pageList(
+    limit: 1
+    filter: {slug: {_expressions: [{value: $slug}]}}
+    variation: $variation
+    _assetTransform: {format: WEBP}
+  ) {
+    items {
+      image {
+        ... on ImageRef {
+          _dynamicUrl
+        }
+      }
+      title
+      content {
+        plaintext
+      }
+      featuredServices {
+        ... on ServiceModel {
+          title
+          slug
+          description {
+            plaintext
+          }
+          icon {
+            ... on ImageRef {
+              _dynamicUrl
+            }
+          }
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+          }
+          _path
+          _model {
+            _path
+            title
+          }
+        }
+      }
+      _variation
+      _variations
+      _metadata {
+        stringMetadata {
+          name
+          value
+        }
+      }
+      _path
+      _model {
+        _path
+        title
+      }
+    }
+  }
+}

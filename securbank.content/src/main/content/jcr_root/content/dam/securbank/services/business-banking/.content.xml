@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="63e55311-4bab-46df-9e80-7de3242bfe3d">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicated_publish="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicatedBy_publish="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="business-banking"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-02-17T16:12:34.268Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Business Banking"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service-category"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Discover our suite of business banking solutions designed to support your company's growth and success.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:07:51.971Z"
+                icon="/content/dam/securbank/services/business-banking.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T16:12:34.268Z"
+                name="Business Banking"
+                name_x0040_LastModified="{Date}2024-02-16T14:07:44.660Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="91283e93-02ef-4c8a-9c09-3ea178268b1f"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service-category"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_description="&lt;p>Discover our suite of business banking solutions designed to support your company's growth and success.&lt;/p>"
+                string_x0040_name="Business Banking"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

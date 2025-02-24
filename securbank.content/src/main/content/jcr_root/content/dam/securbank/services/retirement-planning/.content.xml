@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="8557a22b-cabe-4ade-b9b2-64f2c4786460">
+    <jcr:content
+        jcr:lastModified="{Date}2024-02-27T21:17:49.462Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Retirement Planning"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Plan for a secure retirement with our expert advisors, who will help you create a personalized retirement strategy.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:13:13.143Z"
+                duration="{Long}60"
+                duration_x0040_LastModified="{Date}2024-02-16T14:12:55.065Z"
+                icon="/content/dam/securbank/services/retirement-planning.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T16:01:55.956Z"
+                serviceCategory="/content/dam/securbank/services/investment-services"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:13:04.330Z"
+                slug="retirement-planning"
+                slug_x0040_LastModified="{Date}2024-02-27T21:17:49.462Z"
+                title="Retirement Planning"
+                title_x0040_LastModified="{Date}2024-02-16T14:12:55.064Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="02811ada-f57a-40ae-bfd0-7f6622b170e5"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}60"
+                string_x0040_description="&lt;p>Plan for a secure retirement with our expert advisors, who will help you create a personalized retirement strategy.&lt;/p>"
+                string_x0040_slug="retirement-planning"
+                string_x0040_title="Retirement Planning"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

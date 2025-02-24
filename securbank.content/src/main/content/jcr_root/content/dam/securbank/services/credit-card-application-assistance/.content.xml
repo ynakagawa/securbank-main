@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="0b080c6e-a496-486f-8149-eb3465b724d6">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicated_publish="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicatedBy_publish="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="credit-card-application-assistance"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-02-28T00:06:53.224Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Credit Card Application Assistance"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Get expert assistance in applying for the perfect credit card to suit your spending habits and financial goals.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:15:13.109Z"
+                duration="{Long}20"
+                duration_x0040_LastModified="{Date}2024-02-28T00:06:53.224Z"
+                icon="/content/dam/securbank/services/credit-card-application-assistance.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T16:00:32.557Z"
+                serviceCategory="/content/dam/securbank/services/personal-banking"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:15:03.775Z"
+                slug="credit-card-application-assistance"
+                slug_x0040_LastModified="{Date}2024-02-27T21:16:05.072Z"
+                title="Credit Card Application Assistance"
+                title_x0040_LastModified="{Date}2024-02-16T14:14:52.083Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="52cfd47b-0d1e-4352-8fe1-650c490ef04d"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}20"
+                string_x0040_description="&lt;p>Get expert assistance in applying for the perfect credit card to suit your spending habits and financial goals.&lt;/p>"
+                string_x0040_slug="credit-card-application-assistance"
+                string_x0040_title="Credit Card Application Assistance"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

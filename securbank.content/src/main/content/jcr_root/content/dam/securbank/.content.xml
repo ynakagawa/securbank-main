@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:oak="http://jackrabbit.apache.org/oak/ns/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:sling="http://sling.apache.org/jcr/sling/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="sling:Folder"
+    jcr:uuid="6eac8067-58b0-4790-b82f-f4a6723d5bfd">
+    <jcr:content
+        cq:conf="/conf/securbank"
+        jcr:created="{Date}2024-02-08T09:21:11.009Z"
+        jcr:createdBy="gknob@adobe.com"
+        jcr:lastModified="{Date}2024-02-09T15:02:45.998Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:primaryType="nt:unstructured"
+        jcr:title="SecurBank"
+        metadataSchema="System Default"
+        postProcessWF="System Default"
+        processingProfile="System Default"
+        sourcing="false">
+        <folderThumbnail/>
+    </jcr:content>
+</jcr:root>

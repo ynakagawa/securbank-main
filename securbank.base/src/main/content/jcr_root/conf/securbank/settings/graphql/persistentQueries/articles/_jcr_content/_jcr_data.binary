@@ -1,0 +1,28 @@
+query GetArticles($first: Int) {
+  articlePaginated(first: $first) {
+    edges {
+      node {
+        ... on ArticleModel {
+          title
+          image {
+            ... on ImageRef {
+              _dynamicUrl
+            }
+          }
+          slug
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+          }
+          _path
+          _model {
+            _path
+            title
+          }
+        }
+      }
+    }
+  }
+}

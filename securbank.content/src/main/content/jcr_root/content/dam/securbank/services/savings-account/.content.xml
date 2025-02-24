@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="54ccca72-5439-417a-b961-88269330ddae">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicated_publish="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicatedBy_publish="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="savings-account"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-03-08T10:00:21.081Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Savings Account"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Start saving with our high-interest savings acount, featuring no monthly fees and easy access to your funds.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-03-07T06:16:49.680Z"
+                duration="{Long}30"
+                duration_x0040_LastModified="{Date}2024-02-16T14:11:32.610Z"
+                icon="/content/dam/securbank/services/savings-account.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T16:07:09.437Z"
+                serviceCategory="/content/dam/securbank/services/personal-banking"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:10:02.185Z"
+                slug="savings-account"
+                slug_x0040_LastModified="{Date}2024-03-01T14:27:22.543Z"
+                title="Savings Account"
+                title_x0040_LastModified="{Date}2024-03-08T10:00:21.081Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="ea83a09c-a919-41e4-a864-08c78b5e0936"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}30"
+                string_x0040_description="&lt;p>Start saving with our high-interest savings account, featuring no monthly fees and easy access to your funds.&lt;/p>"
+                string_x0040_slug="savings-account"
+                string_x0040_title="Savings Account"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

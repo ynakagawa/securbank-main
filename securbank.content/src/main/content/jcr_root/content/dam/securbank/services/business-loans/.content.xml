@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="99236000-ddea-4b5a-b98b-5673a3ba1655">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicated_publish="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicatedBy_publish="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="business-loans"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-03-08T18:06:33.834Z"
+        jcr:lastModifiedBy="L425+00@adobeeventlab.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Business Loans"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Access flexible financing options to support your business growth, with competitive interest rates and tailored repayment plans.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:12:06.195Z"
+                duration="{Long}45"
+                duration_x0040_LastModified="{Date}2024-02-16T14:12:26.748Z"
+                icon="/content/dam/securbank/services/business-loans.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T16:05:14.289Z"
+                serviceCategory="/content/dam/securbank/services/business-banking"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:12:21.495Z"
+                slug="business-loans"
+                slug_x0040_LastModified="{Date}2024-02-27T20:42:30.632Z"
+                title="Business Loans"
+                title_x0040_LastModified="{Date}2024-02-16T14:12:11.998Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b49be838-c228-4fd4-afde-a6f6a6085552"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}45"
+                string_x0040_description="&lt;p>Access flexible financing options to support your business growth, with competitive interest rates and tailored repayment plans.&lt;/p>"
+                string_x0040_slug="business-loans"
+                string_x0040_title="Business Loans"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

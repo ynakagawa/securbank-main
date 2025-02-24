@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="15960acd-d480-4a26-8e1c-589bcf1c9ff4">
+    <jcr:content
+        cq:name="featured-services"
+        cq:parentPath="/content/dam/securbank/teasers"
+        jcr:lastModified="{Date}2024-03-07T09:38:36.188Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Featured Services"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-03-06T16:46:21.625Z">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/teaser-list"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                relatedOffers="[/content/dam/securbank/services/savings-account,/content/dam/securbank/services/credit-card-application-assistance,/content/dam/securbank/services/mortgage-consultation]"
+                relatedOffers_x0040_LastModified="{Date}2024-03-07T09:38:36.188Z"
+                style="col-2"
+                style_x0040_LastModified="{Date}2024-03-06T14:10:38.494Z"
+                title="Featured Services"
+                title_x0040_LastModified="{Date}2024-02-16T14:32:01.064Z"/>
+            <business
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-02-16T14:34:06.579Z"
+                relatedOffers="[/content/dam/securbank/services/business-loans,/content/dam/securbank/services/business-insurance-assessment]"
+                relatedOffers_x0040_LastModified="{Date}2024-03-06T15:15:58.252Z"
+                style="col-2"
+                style_x0040_LastModified="{Date}2024-02-16T14:34:11.916Z"
+                title="Featured Services"
+                title_x0040_LastModified="{Date}2024-02-16T14:34:06.580Z"/>
+            <investment
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-02-16T14:35:58.230Z"
+                relatedOffers="[/content/dam/securbank/services/estate-planning-consultation,/content/dam/securbank/services/investment-portfolio-review]"
+                relatedOffers_x0040_LastModified="{Date}2024-02-20T22:18:07.543Z"
+                style="col-2"
+                style_x0040_LastModified="{Date}2024-02-20T22:29:13.834Z"
+                title="Featured Services"
+                title_x0040_LastModified="{Date}2024-02-16T14:35:58.231Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="479ec9ab-e1ea-4ebc-ab41-d034b239e5e4"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser-list"
+                _x0040_stringArray_x0040_variations="[business,investment]"
+                string_x0040_style="col-2"
+                string_x0040_title="Featured Services"/>
+            <business
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="7293d0c9-a080-4dc4-9f78-d591c02c39d9"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser-list"
+                string_x0040_style="col-2"
+                string_x0040_title="Featured Services"/>
+            <investment
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="1d76398c-46fc-4b77-a9db-67927250722c"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser-list"
+                string_x0040_style="col-2"
+                string_x0040_title="Featured Services"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured">
+            <dam:cfVariations jcr:primaryType="nt:unstructured">
+                <business
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"/>
+            </dam:cfVariations>
+        </metadata>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <business
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Business"
+                    name="business"/>
+                <investment
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Investment"
+                    name="investment"/>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

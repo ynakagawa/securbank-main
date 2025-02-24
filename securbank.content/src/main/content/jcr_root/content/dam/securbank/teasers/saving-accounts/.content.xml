@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="eb260c7b-3df0-4342-8cc9-6066da39ca89">
+    <jcr:content
+        jcr:lastModified="{Date}2024-02-09T16:25:46.549Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Saving Accounts"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/teaser"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                cta="Learn Details"
+                cta_x0040_LastModified="{Date}2024-02-09T16:23:34.674Z"
+                image="/content/dam/securbank/teasers/saving-accounts.webp"
+                image_x0040_LastModified="{Date}2024-02-09T16:22:40.367Z"
+                style="large"
+                style_x0040_LastModified="{Date}2024-02-09T16:25:46.549Z"
+                text="&lt;p>Open one of our most popular savings accounts today.&lt;/p>"
+                text_x0040_ContentType="text/html"
+                text_x0040_LastModified="{Date}2024-02-09T16:23:20.180Z"
+                title="Savings Accounts"
+                title_x0040_LastModified="{Date}2024-02-09T16:20:33.076Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="6f9749f9-0660-4149-b751-989d186a65fb"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_cta="Learn Details"
+                string_x0040_style="large"
+                string_x0040_text="&lt;p>Open one of our most popular savings accounts today.&lt;/p>"
+                string_x0040_title="Savings Accounts"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

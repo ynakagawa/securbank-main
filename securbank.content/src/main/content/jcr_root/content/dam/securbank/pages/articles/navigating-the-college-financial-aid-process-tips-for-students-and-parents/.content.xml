@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3a89b5f4-c162-4dcb-99a1-81d8e8b6ef27">
+    <jcr:content
+        jcr:lastModified="{Date}2024-03-09T09:23:08.883Z"
+        jcr:lastModifiedBy="L425+00@adobeeventlab.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Navigating the College Financial Aid Process: Tips for Students and Parents"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/article"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                content="&lt;p>Paying for college can be a daunting task, but with careful planning and understanding of the financial aid process, you can make it more manageable. Here are some tips for navigating the college financial aid process for students and parents:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Start Early:&lt;/strong> Begin researching financial aid options and planning for college expenses as early as possible. Understand the different types of financial aid available, including scholarships, grants, loans, and work-study programs.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Complete the FAFSA:&lt;/strong> The Free Application for Federal Student Aid (FAFSA) is the key to accessing federal financial aid, as well as many state and institutional aid programs. Complete the FAFSA as soon as possible after October 1st of your senior year of high school, and be sure to meet all deadlines to maximize your eligibility for aid.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Explore Scholarships and Grants:&lt;/strong> Look for scholarship and grant opportunities offered by colleges, private organizations, employers, and community groups. Research eligibility criteria and application requirements, and apply for as many scholarships and grants as possible to reduce reliance on student loans.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Compare Financial Aid Offers:&lt;/strong> Once you receive financial aid offers from colleges, carefully compare them to determine the most affordable option. Consider factors such as total cost of attendance, grants and scholarships awarded, and net price after financial aid.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Consider Federal Student Loans:&lt;/strong> If additional funding is needed to cover college costs, consider federal student loans as a borrowing option. Federal student loans offer fixed interest rates, flexible repayment options, and borrower protections that private loans may not provide.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Create a Budget:&lt;/strong> Develop a budget to manage college expenses and living costs. Consider expenses such as tuition, fees, room and board, textbooks, transportation, and personal expenses. Look for ways to minimize costs and maximize savings, such as renting textbooks or living off-campus.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Seek Financial Aid Counselor Assistance:&lt;/strong> If you have questions or need assistance navigating the financial aid process, don't hesitate to reach out to your college's financial aid office or a financial aid counselor for guidance and support.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>"
+                content_x0040_ContentType="text/html"
+                content_x0040_LastModified="{Date}2024-02-09T15:32:24.704Z"
+                image="/content/dam/securbank/pages/articles/students-parents.jpg"
+                image_x0040_LastModified="{Date}2024-02-09T15:36:08.261Z"
+                relatedArticles="[/content/dam/securbank/pages/articles/understanding-credit-scores-decoding-the-numbers-behind-your-financial-health,/content/dam/securbank/pages/articles/your-comprehensive-guide-to-homebuying-from-start-to-finish,/content/dam/securbank/pages/articles/understanding-investment-basics-a-beginners-guide-to-building-wealth]"
+                relatedArticles_x0040_LastModified="{Date}2024-02-09T15:55:10.658Z"
+                slug="navigating-the-college-financial-aid-process"
+                slug_x0040_LastModified="{Date}2024-02-09T15:31:37.267Z"
+                title="Navigating the College Financial Aid Process: Tips for Students and Parents"
+                title_x0040_LastModified="{Date}2024-02-09T15:31:41.903Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="9045eaa1-8a1d-4ff0-bbb6-8967dbc534c6"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/page"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_content="&lt;p>Paying for college can be a daunting task, but with careful planning and understanding of the financial aid process, you can make it more manageable. Here are some tips for navigating the college financial aid process for students and parents:&lt;/p>&#xa;&lt;ol>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Start Early:&lt;/strong> Begin researching financial aid options and planning for college expenses as early as possible. Understand the different types of financial aid available, including scholarships, grants, loans, and work-study programs.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Complete the FAFSA:&lt;/strong> The Free Application for Federal Student Aid (FAFSA) is the key to accessing federal financial aid, as well as many state and institutional aid programs. Complete the FAFSA as soon as possible after October 1st of your senior year of high school, and be sure to meet all deadlines to maximize your eligibility for aid.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Explore Scholarships and Grants:&lt;/strong> Look for scholarship and grant opportunities offered by colleges, private organizations, employers, and community groups. Research eligibility criteria and application requirements, and apply for as many scholarships and grants as possible to reduce reliance on student loans.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Compare Financial Aid Offers:&lt;/strong> Once you receive financial aid offers from colleges, carefully compare them to determine the most affordable option. Consider factors such as total cost of attendance, grants and scholarships awarded, and net price after financial aid.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Consider Federal Student Loans:&lt;/strong> If additional funding is needed to cover college costs, consider federal student loans as a borrowing option. Federal student loans offer fixed interest rates, flexible repayment options, and borrower protections that private loans may not provide.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Create a Budget:&lt;/strong> Develop a budget to manage college expenses and living costs. Consider expenses such as tuition, fees, room and board, textbooks, transportation, and personal expenses. Look for ways to minimize costs and maximize savings, such as renting textbooks or living off-campus.&lt;/p>&#xa;&lt;/li>&#xa;&lt;li>&#xa;&lt;p>&lt;strong>Seek Financial Aid Counselor Assistance:&lt;/strong> If you have questions or need assistance navigating the financial aid process, don't hesitate to reach out to your college's financial aid office or a financial aid counselor for guidance and support.&lt;/p>&#xa;&lt;/li>&#xa;&lt;/ol>"
+                string_x0040_slug="navigating-the-college-financial-aid-process"
+                string_x0040_title="Navigating the College Financial Aid Process: Tips for Students and Parents"/>
+        </indexedData>
+        <metadata
+            cq:tags="[securebank:article-types/parents,securebank:article-types/financial-aid,securebank:article-types/students,securebank:article-types/tips]"
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

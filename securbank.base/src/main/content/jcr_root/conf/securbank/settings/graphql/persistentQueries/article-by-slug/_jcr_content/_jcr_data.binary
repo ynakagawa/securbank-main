@@ -1,0 +1,53 @@
+query GetArticleBySlug($slug: String!) {
+  articleList(
+    limit: 1
+    filter: {slug: {_expressions: [{value: $slug}]}}
+    _assetTransform: {format: WEBP}
+  ) {
+    items {
+      _path
+      title
+      slug
+      content {
+        html
+      }
+      image {
+        ... on ImageRef {
+          _dynamicUrl
+        }
+      }
+      relatedArticles {
+        ... on ArticleModel {
+          title
+          image {
+            ... on ImageRef {
+              _dynamicUrl
+            }
+          }
+          slug
+          _metadata {
+            stringMetadata {
+              name
+              value
+            }
+          }
+          _path
+          _model {
+            _path
+            title
+          }
+        }
+      }
+      _metadata {
+        stringMetadata {
+          name
+          value
+        }
+      }
+      _model {
+        _path
+        title
+      }
+    }
+  }
+}

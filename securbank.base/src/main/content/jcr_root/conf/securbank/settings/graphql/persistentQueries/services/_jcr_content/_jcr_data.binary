@@ -1,0 +1,36 @@
+query GetServices($category: ID, $first: Int) {
+  servicePaginated(
+    first: $first
+    filter: {serviceCategory: {_path: {_expressions: [{value: $category}]}}}
+  ) {
+    edges {
+      node {
+        slug
+        title
+        serviceCategory {
+          name
+          _path
+        }
+        description {
+          plaintext
+        }
+        icon {
+          ... on ImageRef {
+            _dynamicUrl
+          }
+        }
+        _metadata {
+          stringMetadata {
+            name
+            value
+          }
+        }
+        _path
+        _model {
+          _path
+          title
+        }
+      }
+    }
+  }
+}

@@ -1,0 +1,50 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="672ac2d3-f27f-4426-a4ff-5ee7113ae442">
+    <jcr:content
+        jcr:lastModified="{Date}2024-02-27T21:17:18.290Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Personal Budgeting Session"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Receive personalized guidance on budgeting and money management to achieve your financial goals.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:20:44.391Z"
+                duration="{Long}30"
+                duration_x0040_LastModified="{Date}2024-02-16T14:20:51.188Z"
+                icon="/content/dam/securbank/services/personal-budgeting-section.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T15:53:07.826Z"
+                serviceCategory="/content/dam/securbank/services/personal-banking"
+                serviceCategory_x0040_LastModified="{Date}2024-02-27T17:44:57.504Z"
+                slug="personal-budgeting-session"
+                slug_x0040_LastModified="{Date}2024-02-27T21:17:18.290Z"
+                title="Personal Budgeting Session"
+                title_x0040_LastModified="{Date}2024-02-16T14:20:47.902Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="30e875e8-bdf3-41c8-9229-7d06ccddb7f2"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}30"
+                string_x0040_description="&lt;p>Receive personalized guidance on budgeting and money management to achieve your financial goals.&lt;/p>"
+                string_x0040_slug="personal-budgeting-session"
+                string_x0040_title="Personal Budgeting Session"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

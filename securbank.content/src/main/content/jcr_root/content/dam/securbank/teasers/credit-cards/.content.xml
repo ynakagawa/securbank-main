@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="4e0f65e8-f84d-4e8a-8e73-ef05a5c709d4">
+    <jcr:content
+        jcr:lastModified="{Date}2024-02-09T16:25:33.898Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Credit Cards"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/teaser"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                cta="Learn Details"
+                cta_x0040_LastModified="{Date}2024-02-09T16:25:33.898Z"
+                image="/content/dam/securbank/teasers/credit-cards.webp"
+                image_x0040_LastModified="{Date}2024-02-09T16:24:53.981Z"
+                style="large"
+                style_x0040_LastModified="{Date}2024-02-09T16:25:18.566Z"
+                text="&lt;p>SecurBank connects you to local dealers offering discounts and a pressure-free experience.&lt;/p>"
+                text_x0040_ContentType="text/html"
+                text_x0040_LastModified="{Date}2024-02-09T16:24:18.979Z"
+                title="Credit Cards"
+                title_x0040_LastModified="{Date}2024-02-09T16:25:22.367Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="703bdf95-3af3-4b1f-b1af-65e5186b6986"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_cta="Learn Details"
+                string_x0040_style="large"
+                string_x0040_text="&lt;p>SecurBank connects you to local dealers offering discounts and a pressure-free experience.&lt;/p>"
+                string_x0040_title="Credit Cards"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

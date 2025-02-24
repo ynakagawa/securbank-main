@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a31237d3-d833-4f2e-b36c-7c773deb2727">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicated_publish="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicatedBy_publish="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="business-insurance-assessment"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-02-27T20:45:00.545Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Business Insurance Assessment"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Assess your business's insurance needs and get recommendations for coverage options to protect your company.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:19:20.642Z"
+                duration="{Long}40"
+                duration_x0040_LastModified="{Date}2024-02-16T14:19:25.492Z"
+                icon="/content/dam/securbank/services/business-insurance-assessment.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T15:55:38.556Z"
+                serviceCategory="/content/dam/securbank/services/business-banking"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:19:13.110Z"
+                slug="business-insurance-assessment"
+                slug_x0040_LastModified="{Date}2024-02-27T20:45:00.545Z"
+                title="Business Insurance Assessment"
+                title_x0040_LastModified="{Date}2024-02-16T14:19:03.301Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b47adf9a-44ba-4ddd-adde-6422db28a664"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}40"
+                string_x0040_description="&lt;p>Assess your business's insurance needs and get recommendations for coverage options to protect your company.&lt;/p>"
+                string_x0040_slug="business-insurance-assessment"
+                string_x0040_title="Business Insurance Assessment"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

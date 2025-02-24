@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="a7e719fa-e955-4c2d-aa3f-b1e1857e3e4e">
+    <jcr:content
+        jcr:lastModified="{Date}2024-02-13T14:13:28.551Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Home Teaser"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/teaser-list"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                relatedOffers="[/content/dam/securbank/teasers/credit-cards]"
+                relatedOffers_x0040_LastModified="{Date}2024-02-13T14:13:28.551Z"
+                style="col-3"
+                style_x0040_LastModified="{Date}2024-02-09T16:19:25.223Z"
+                title_x0040_LastModified="{Date}2024-02-09T16:19:16.635Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="5dc3c949-a297-4cfd-b278-d75df8405784"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser-list"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_style="col-3"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

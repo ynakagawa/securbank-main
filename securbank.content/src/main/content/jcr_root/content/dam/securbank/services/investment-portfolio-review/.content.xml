@@ -1,0 +1,61 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="3c3af147-e747-4f91-9fa0-9189f689e969">
+    <jcr:content
+        cq:isDelivered="{Boolean}true"
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicated_publish="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicatedBy_publish="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:lastReplicationAction_publish="Activate"
+        cq:name="investment-portfolio-review"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-02-27T21:16:34.885Z"
+        jcr:lastModifiedBy="alengyel@adobe.com"
+        jcr:mixinTypes="[cq:ReplicationStatus,cq:ReplicationStatus2]"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Investment Portfolio Review"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Receive a comprehensive review of your investment portfolio to assess performance and adjust strategies as needed.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-02-16T14:17:25.006Z"
+                duration="{Long}45"
+                duration_x0040_LastModified="{Date}2024-02-16T14:17:27.704Z"
+                icon="/content/dam/securbank/services/investment-portfolio-review.jpg"
+                icon_x0040_LastModified="{Date}2024-02-17T15:57:21.284Z"
+                serviceCategory="/content/dam/securbank/services/investment-services"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:17:12.764Z"
+                slug="investment-portfolio-review"
+                slug_x0040_LastModified="{Date}2024-02-27T21:16:34.885Z"
+                title="Investment Portfolio Review"
+                title_x0040_LastModified="{Date}2024-02-16T14:17:04.054Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="69afecf1-0894-4b84-a431-b8964fef1784"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}45"
+                string_x0040_description="&lt;p>Receive a comprehensive review of your investment portfolio to assess performance and adjust strategies as needed.&lt;/p>"
+                string_x0040_slug="investment-portfolio-review"
+                string_x0040_title="Investment Portfolio Review"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

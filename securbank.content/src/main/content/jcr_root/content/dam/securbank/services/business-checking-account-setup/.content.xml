@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="67340e3b-cfe7-41f5-9075-86a7e40fd191">
+    <jcr:content
+        cq:name="business-checking-account-setup"
+        cq:parentPath="/content/dam/securbank/services"
+        jcr:lastModified="{Date}2024-03-07T07:18:45.555Z"
+        jcr:lastModifiedBy="L425+00@adobeeventlab.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Business Checking Account Setup"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/service"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                description="&lt;p>Set up a business checking acount with ease, with guidance on selecting the right account for your business needs.&lt;/p>"
+                description_x0040_ContentType="text/html"
+                description_x0040_LastModified="{Date}2024-03-07T06:16:49.759Z"
+                duration="{Long}35"
+                duration_x0040_LastModified="{Date}2024-02-16T14:16:08.299Z"
+                icon_x0040_LastModified="{Date}2024-03-07T07:18:45.555Z"
+                serviceCategory="/content/dam/securbank/services/business-banking"
+                serviceCategory_x0040_LastModified="{Date}2024-02-16T14:15:56.416Z"
+                slug="business-checking-account-setup"
+                slug_x0040_LastModified="{Date}2024-03-01T14:27:27.097Z"
+                title="Business Checking Account Setup"
+                title_x0040_LastModified="{Date}2024-02-16T14:15:47.696Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="b857e35e-b66d-43b0-82ca-e8ec5b763ec3"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/service"
+                _x0040_stringArray_x0040_variations="[]"
+                long_x0040_duration="{Long}35"
+                string_x0040_description="&lt;p>Set up a business checking account with ease, with guidance on selecting the right account for your business needs.&lt;/p>"
+                string_x0040_slug="business-checking-account-setup"
+                string_x0040_title="Business Checking Account Setup"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

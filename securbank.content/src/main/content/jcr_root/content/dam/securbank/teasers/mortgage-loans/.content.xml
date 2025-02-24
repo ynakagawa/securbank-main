@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:mixinTypes="[mix:referenceable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="6ef78180-82f9-4cd1-9cb3-f083ff9a5152">
+    <jcr:content
+        jcr:lastModified="{Date}2024-02-09T16:27:06.775Z"
+        jcr:lastModifiedBy="gknob@adobe.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Mortgage Loans"
+        contentFragment="{Boolean}true">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/teaser"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                cta="Get The Offer"
+                cta_x0040_LastModified="{Date}2024-02-09T16:27:06.775Z"
+                image="/content/dam/securbank/teasers/mortgage-loans.webp"
+                image_x0040_LastModified="{Date}2024-02-09T16:27:00.074Z"
+                style="small"
+                style_x0040_LastModified="{Date}2024-02-09T16:26:13.518Z"
+                text="&lt;p>Get a SecurBank new mortgage offer to buy the house you dream of.&lt;br>Write down your email to get special offer!&lt;/p>"
+                text_x0040_ContentType="text/html"
+                text_x0040_LastModified="{Date}2024-02-09T16:26:45.300Z"
+                title="Mortgage Loans"
+                title_x0040_LastModified="{Date}2024-02-09T16:26:11.412Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="c688e6bb-2b18-416d-9f02-7feab9f43874"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/teaser"
+                _x0040_stringArray_x0040_variations="[]"
+                string_x0040_cta="Get The Offer"
+                string_x0040_style="small"
+                string_x0040_text="&lt;p>Get a SecurBank new mortgage offer to buy the house you dream of.&lt;br>Write down your email to get special offer!&lt;/p>"
+                string_x0040_title="Mortgage Loans"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>

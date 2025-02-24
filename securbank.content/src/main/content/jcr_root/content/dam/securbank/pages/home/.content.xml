@@ -1,0 +1,127 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<jcr:root xmlns:jcr="http://www.jcp.org/jcr/1.0" xmlns:dam="http://www.day.com/dam/1.0" xmlns:nt="http://www.jcp.org/jcr/nt/1.0" xmlns:mix="http://www.jcp.org/jcr/mix/1.0" xmlns:cq="http://www.day.com/jcr/cq/1.0"
+    jcr:isCheckedOut="{Boolean}true"
+    jcr:mixinTypes="[mix:referenceable,mix:versionable]"
+    jcr:primaryType="dam:Asset"
+    jcr:uuid="51762571-5e1a-4ca2-9e78-45349c65a0ce">
+    <jcr:content
+        cq:lastReplicated="{Date}2024-03-08T10:44:57.823Z"
+        cq:lastReplicatedBy="L425+00@adobeeventlab.com"
+        cq:lastReplicationAction="Activate"
+        cq:name="home"
+        cq:parentPath="/content/dam/securbank/pages"
+        cq:versionCreator="L425+00@adobeeventlab.com"
+        jcr:lastModified="{Date}2024-03-09T16:18:48.443Z"
+        jcr:lastModifiedBy="L425+00@adobeeventlab.com"
+        jcr:primaryType="dam:AssetContent"
+        jcr:title="Home"
+        contentFragment="{Boolean}true"
+        lastFragmentSave="{Date}2024-02-09T15:11:34.521Z"
+        newRendition="{Boolean}true"
+        restored="{Date}2024-03-09T15:42:46.118Z">
+        <data
+            cq:model="/conf/securbank/settings/dam/cfm/models/page"
+            jcr:primaryType="nt:unstructured"
+            _strucVersion="{Long}1">
+            <master
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                content="&lt;p>Welcome to SecurBank - Your Trusted Partner for Financial Solutions. At SecurBank, we are committed to helping you achieve your financial goals with personalized services tailored to your needs. Whether you're saving for the future, growing your business, or planning for retirement, our team of experts is here to guide you every step of the way. Explore our range of banking and investment services designed to empower you on your financial journey. Join us today and experience the difference with SecurBank.&lt;/p>"
+                content_x0040_ContentType="text/html"
+                content_x0040_LastModified="{Date}2024-03-09T16:18:48.442Z"
+                featuredServices="[/content/dam/securbank/services/savings-account,/content/dam/securbank/services/credit-card-application-assistance,/content/dam/securbank/services/mortgage-consultation]"
+                featuredServices_x0040_LastModified="{Date}2024-03-09T16:18:48.442Z"
+                image="/content/dam/securbank/pages/sb-home.png"
+                image_x0040_LastModified="{Date}2024-03-09T16:18:48.442Z"
+                slug="home"
+                slug_x0040_LastModified="{Date}2024-03-09T16:18:48.442Z"
+                teasers="/content/dam/securbank/teasers/featured-services"
+                teasers_x0040_LastModified="{Date}2024-02-16T14:42:57.076Z"
+                title="SecurBank"
+                title_x0040_LastModified="{Date}2024-03-09T16:18:48.441Z"/>
+            <business_banking
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-03-07T13:57:22.999Z"
+                content="&lt;p>Welcome to SecurBank - Your Trusted Partner for Business Growth and Financial Success. At SecurBank, we understand the unique challenges and opportunities that businesses face. That's why we're committed to providing tailored financial solutions to help your business thrive. Whether you're looking to expand operations, manage cash flow, or optimize your finances, our team of business experts is here to support you. Explore our comprehensive suite of banking and financial services designed to meet the needs of businesses of all sizes. Partner with SecurBank today and unlock the potential for growth and success for your business.&lt;/p>"
+                content_x0040_ContentType="text/html"
+                content_x0040_LastModified="{Date}2024-03-08T08:36:18.529Z"
+                featuredServices="[/content/dam/securbank/services/business-loans,/content/dam/securbank/services/business-insurance-assessment]"
+                featuredServices_x0040_LastModified="{Date}2024-03-07T14:00:46.491Z"
+                image="/content/dam/securbank/pages/sb-home-business.png"
+                image_x0040_LastModified="{Date}2024-03-08T09:18:22.028Z"
+                slug="home"
+                slug_x0040_LastModified="{Date}2024-03-07T13:57:23.008Z"
+                title="SecurBank"
+                title_x0040_LastModified="{Date}2024-03-07T13:57:23.007Z"/>
+            <investment_services
+                jcr:mixinTypes="[cq:Taggable,dam:cfVariationNode]"
+                jcr:primaryType="nt:unstructured"
+                _x0040_variationCreationDate="{Date}2024-03-07T13:57:41.413Z"
+                content="&lt;p>Welcome to SecurBank - Your Premier Destination for Investment Excellence. At SecurBank, we're dedicated to helping investors like you achieve your financial goals and build wealth for the future. With our extensive range of investment products and services, you can access innovative solutions designed to maximize returns and minimize risk. Whether you're a seasoned investor or just starting out, our team of investment professionals is here to provide expert guidance and personalized advice. Explore our diverse portfolio of investment opportunities and discover the potential for long-term financial growth and success with SecurBank by your side.&lt;/p>"
+                content_x0040_ContentType="text/html"
+                content_x0040_LastModified="{Date}2024-03-08T08:36:33.002Z"
+                featuredServices="[/content/dam/securbank/services/estate-planning-consultation,/content/dam/securbank/services/investment-portfolio-review]"
+                featuredServices_x0040_LastModified="{Date}2024-03-08T15:49:38.022Z"
+                image="/content/dam/securbank/pages/sb-home-investor.png"
+                image_x0040_LastModified="{Date}2024-03-08T08:57:57.301Z"
+                slug="home"
+                slug_x0040_LastModified="{Date}2024-03-07T13:57:41.416Z"
+                title="SecurBank"
+                title_x0040_LastModified="{Date}2024-03-07T13:57:41.416Z"/>
+        </data>
+        <indexedData jcr:primaryType="nt:unstructured">
+            <master
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="691333b6-6337-44f7-9f60-fd03b9737db0"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/page"
+                _x0040_stringArray_x0040_variations="[business_banking,investment_services]"
+                string_x0040_content="&lt;p>Welcome to SecurBank - Your Trusted Partner for Financial Solutions. At SecurBank, we are committed to helping you achieve your financial goals with personalized services tailored to your needs. Whether you're saving for the future, growing your business, or planning for retirement, our team of experts is here to guide you every step of the way. Explore our range of banking and investment services designed to empower you on your financial journey. Join us today and experience the difference with SecurBank.&lt;/p>"
+                string_x0040_slug="home"
+                string_x0040_title="SecurBank"/>
+            <business_banking
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="4715271c-9faa-4698-b29f-72cddf2cf9b7"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/page"
+                string_x0040_content="&lt;p>Welcome to SecurBank - Your Trusted Partner for Business Growth and Financial Success. At SecurBank, we understand the unique challenges and opportunities that businesses face. That's why we're committed to providing tailored financial solutions to help your business thrive. Whether you're looking to expand operations, manage cash flow, or optimize your finances, our team of business experts is here to support you. Explore our comprehensive suite of banking and financial services designed to meet the needs of businesses of all sizes. Partner with SecurBank today and unlock the potential for growth and success for your business.&lt;/p>"
+                string_x0040_slug="home"
+                string_x0040_title="SecurBank"/>
+            <investment_services
+                jcr:mixinTypes="[dam:IndexedFragmentData]"
+                jcr:primaryType="nt:unstructured"
+                jcr:uuid="30d9f3f8-69a1-4ef6-822e-869d1343e0d9"
+                _x0040_string_x0040_model="/conf/securbank/settings/dam/cfm/models/page"
+                string_x0040_content="&lt;p>Welcome to SecurBank - Your Premier Destination for Investment Excellence. At SecurBank, we're dedicated to helping investors like you achieve your financial goals and build wealth for the future. With our extensive range of investment products and services, you can access innovative solutions designed to maximize returns and minimize risk. Whether you're a seasoned investor or just starting out, our team of investment professionals is here to provide expert guidance and personalized advice. Explore our diverse portfolio of investment opportunities and discover the potential for long-term financial growth and success with SecurBank by your side.&lt;/p>"
+                string_x0040_slug="home"
+                string_x0040_title="SecurBank"/>
+        </indexedData>
+        <metadata
+            jcr:mixinTypes="[cq:Taggable]"
+            jcr:primaryType="nt:unstructured"/>
+        <model jcr:primaryType="nt:unstructured">
+            <variations jcr:primaryType="nt:unstructured">
+                <test
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Test"
+                    name="test"/>
+                <business_banking
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Business Banking"
+                    name="business_banking"/>
+                <investment_services
+                    jcr:description="\0"
+                    jcr:mixinTypes="[cq:Taggable]"
+                    jcr:primaryType="nt:unstructured"
+                    jcr:title="Investment Services"
+                    name="investment_services"/>
+            </variations>
+        </model>
+        <related jcr:primaryType="nt:unstructured"/>
+    </jcr:content>
+</jcr:root>
