@@ -14,6 +14,7 @@
     "Content-Type",
     "Access-Control-Request-Method",
     "Access-Control-Request-Headers",
+    "Access-Control-Allow-Origin",
     "Authorization"
   ],
   "supportedmethods": ["GET", "HEAD", "POST"],
