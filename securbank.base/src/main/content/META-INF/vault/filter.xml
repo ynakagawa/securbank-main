@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <filter root="/conf/securbank"/>
-    <filter root="/content/cq:tags/securebank"/>
-    <filter root="/content/cq:graphql/securbank"/>
+    <filter root="/content/cq:tags/securebank" mode="merge"/>
+    <filter root="/content/cq:graphql/securbank" mode="merge"/>
 </workspaceFilter>
