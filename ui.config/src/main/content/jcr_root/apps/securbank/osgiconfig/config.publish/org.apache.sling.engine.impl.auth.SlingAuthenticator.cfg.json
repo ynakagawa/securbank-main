@@ -1,0 +1,11 @@
+{
+    "auth.sudo.cookie": "sling.sudo",
+    "auth.sudo.parameter": "sudo",
+    "auth.annonymous": true,
+    "sling.auth.requirements": [
+        "/content/demo/en/-",
+        "/content/dam/en/-"
+    ],
+    "sling.auth.anonymous.user": "anonymous",
+    "sling.auth.anonymous.password": "anonymous"
+} 

@@ -1,0 +1,21 @@
+{
+    "path": [
+        "/content/demo/en",
+        "/content/dam/en",
+        "/apps/securbank"
+    ],
+    "service.ranking": 5000,
+    "auth.anonymous": true,
+    "jaas.controlFlag": "sufficient",
+    "jaas.realmName": "jackrabbit.oak",
+    "jaas.ranking": 55,
+    "whitelistPatterns": [
+        "/libs/granite/core/content/login.*",
+        "/libs/granite/csrf/token.json",
+        "/etc/designs/.*",
+        "/etc/clientlibs/.*",
+        "/content/dam/.*\\.(?i:jpe?g|png|gif|svg)",
+        "/content/demo/en/saml_login.*",
+        "/system/sling/logout.*"
+    ]
+} 

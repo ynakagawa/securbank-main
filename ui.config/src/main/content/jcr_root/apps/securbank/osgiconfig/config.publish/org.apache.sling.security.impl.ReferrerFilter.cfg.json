@@ -1,0 +1,28 @@
+{
+    "allow.empty": false,
+    "allow.hosts": [
+        "preview-p18253-e1553077.adobeaemcloud.com",
+        "trial-5076725.okta.com",
+        "localhost",
+        "127.0.0.1",
+        "securbankdemo.vercel.app"
+    ],
+    "allow.hosts.regexp": [
+        "https://.*\\.adobeaemcloud\\.com",
+        "https://.*\\.okta\\.com",
+        "https://.*\\.oktapreview\\.com",
+        "https://.*\\.okta-emea\\.com",
+        "https://.*\\.vercel\\.app"
+    ],
+    "filter.methods": [
+        "POST",
+        "PUT",
+        "DELETE",
+        "PATCH"
+    ],
+    "exclude.agents.regexp": [
+        ".*sling.*",
+        ".*granite.*",
+        ".*health.*check.*"
+    ]
+} 

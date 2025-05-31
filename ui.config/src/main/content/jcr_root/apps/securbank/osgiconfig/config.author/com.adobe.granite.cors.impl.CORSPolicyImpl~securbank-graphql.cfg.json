@@ -1,6 +1,9 @@
 {
   "alloworigin": [
-    "https://6499-2601-646-4300-9900-79fb-5825-f89f-1e2a.ngrok-free.app", "https://author-p18253-e1553077.adobeaemcloud.com","https://securbankdemo.vercel.app","https://localhost:3000"],
+    "$[env:SAML_IDP_ORIGINldefault=https://trial-5076725.okta.com]", 
+    "https://author-p18253-e1553077.adobeaemcloud.com",
+    "https://securbankdemo.vercel.app",
+    "https://localhost:3000"],
   "alloworiginregexp": ["https?://localhost.*", "https?://*.vercel.app"],
   "allowedpaths": [
     "/graphql/execute.json.*",
