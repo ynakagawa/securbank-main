@@ -4,7 +4,14 @@
     "https://author-p18253-e1553077.adobeaemcloud.com",
     "https://securbankdemo.vercel.app",
     "https://localhost:3000"],
-  "alloworiginregexp": ["https?://localhost.*", "https?://*.vercel.app"],
+  "alloworiginregexp": [
+    "https?://localhost.*", 
+    "https://.*\\.adobeaemcloud\\.com",
+    "https://.*\\.okta\\.com",
+    "https://.*\\.oktapreview\\.com",
+    "https://.*\\.okta-emea\\.com",
+    "https://.*\\.vercel\\.app"
+  ],
   "allowedpaths": [
     "/graphql/execute.json.*",
     "/content/_cq_graphql/securbank/endpoint.json",

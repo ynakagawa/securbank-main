@@ -5,7 +5,8 @@
         "trial-5076725.okta.com",
         "localhost",
         "127.0.0.1",
-        "securbankdemo.vercel.app"
+        "securbankdemo.vercel.app",
+        "publish-p18253-e46622.adobeaemcloud.com"
     ],
     "allow.hosts.regexp": [
         "https://.*\\.adobeaemcloud\\.com",
