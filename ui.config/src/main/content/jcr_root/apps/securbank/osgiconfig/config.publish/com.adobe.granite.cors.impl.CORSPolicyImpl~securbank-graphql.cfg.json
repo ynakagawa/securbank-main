@@ -1,0 +1,36 @@
+{
+  "alloworigin": [
+    "$[env:SAML_IDP_ORIGINldefault=https://trial-5076725.okta.com]", 
+    "https://author-p18253-e1553077.adobeaemcloud.com",
+    "https://publish-p18253-e1553077.adobeaemcloud.com",
+    "https://preview-p18253-e1553077.adobeaemcloud.com",
+    "https://securbankdemo.vercel.app",
+    "https://localhost:3000"],
+  "alloworiginregexp": [
+    "https?://localhost.*", 
+    "https://.*\\.adobeaemcloud\\.com",
+    "https://.*\\.okta\\.com",
+    "https://.*\\.oktapreview\\.com",
+    "https://.*\\.okta-emea\\.com",
+    "https://.*\\.vercel\\.app"
+  ],
+  "allowedpaths": [
+    "/graphql/execute.json.*",
+    "/content/_cq_graphql/securbank/endpoint.json",
+    "/content/experience-fragments/.*"
+  ],
+  "supportedheaders": [
+    "Origin",
+    "Accept",
+    "X-Requested-With",
+    "Content-Type",
+    "Access-Control-Request-Method",
+    "Access-Control-Request-Headers",
+    "Access-Control-Allow-Origin",
+    "Authorization"
+  ],
+  "supportedmethods": ["GET", "HEAD", "POST"],
+  "maxage:Integer": 1800,
+  "supportscredentials": true,
+  "exposedheaders": [""]
+}
