@@ -1,5 +1,5 @@
 {
-    "path": ["/content/demo/en","/content/dam/en"],
+    "path": ["/content/demo/en/-"],
     "idpCertAlias": "certalias___1748665781811",
     "idpIdentifier": "https://trial-5076725.okta.com/app/trial-5076725_previewp18253e1553077_1/exkrwzfl7beXhoYjY697/sso/saml",
     "idpUrl": "https://trial-5076725.okta.com/app/trial-5076725_previewp18253e1553077_1/exkrwzfl7beXhoYjY697/sso/saml",
