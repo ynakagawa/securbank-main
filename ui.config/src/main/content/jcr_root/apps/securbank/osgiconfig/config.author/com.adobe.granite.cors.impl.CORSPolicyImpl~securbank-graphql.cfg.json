@@ -2,6 +2,7 @@
   "alloworigin": [
     "$[env:SAML_IDP_ORIGINldefault=https://trial-5076725.okta.com]", 
     "https://author-p18253-e1553077.adobeaemcloud.com",
+    "https://publish-p18253-e46622.adobeaemcloud.com",
     "https://securbankdemo.vercel.app",
     "https://localhost:3000"],
   "alloworiginregexp": [
@@ -27,7 +28,7 @@
     "Access-Control-Allow-Origin",
     "Authorization"
   ],
-  "supportedmethods": ["GET", "HEAD", "POST"],
+  "supportedmethods": ["GET", "HEAD", "POST", "OPTIONS"],
   "maxage:Integer": 1800,
   "supportscredentials": true,
   "exposedheaders": [""]
