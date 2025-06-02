@@ -1,6 +1,0 @@
-{
-    "sling.servlet.methods": ["GET", "POST"],
-    "sling.servlet.paths": "/system/sling/logout",
-    "sling.auth.requirements": ["-/system/sling/logout"],
-    "logout.page.default": "/content/demo/en.html"
-} 
