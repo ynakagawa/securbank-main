@@ -1,7 +1,8 @@
 {
   "alloworigin": [
-    "$[env:SAML_IDP_ORIGINldefault=https://trial-5076725.okta.com]", 
+    "https://trial-5076725.okta.com", 
     "https://author-p18253-e1553077.adobeaemcloud.com",
+    "https://author-p18253-e46622.adobeaemcloud.com",
     "https://publish-p18253-e46622.adobeaemcloud.com",
     "https://securbankdemo.vercel.app",
     "https://experience.adobe.com",

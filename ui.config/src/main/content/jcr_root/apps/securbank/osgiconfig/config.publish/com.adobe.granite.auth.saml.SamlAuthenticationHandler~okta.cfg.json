@@ -1,8 +1,8 @@
 {
     "path": [
-        "/content/wknd", 
+        "/content/wknd/*", 
         "/content/dam/wknd",
-        "/content/demo",
+        "/content/demo/*",
         "/content/dam/demo"
 ],
     "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certalias___1748923858778]",
