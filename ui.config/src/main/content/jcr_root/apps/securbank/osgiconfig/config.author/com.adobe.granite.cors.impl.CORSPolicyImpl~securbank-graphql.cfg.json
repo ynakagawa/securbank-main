@@ -1,19 +1,20 @@
 {
   "alloworigin": [
+    "https://securbankdemo.vercel.app",
     "https://trial-5076725.okta.com", 
     "https://author-p18253-e1553077.adobeaemcloud.com",
     "https://author-p18253-e46622.adobeaemcloud.com",
     "https://publish-p18253-e46622.adobeaemcloud.com",
-    "https://securbankdemo.vercel.app",
     "https://experience.adobe.com",
-    "https://localhost:3000"],
+    "https://localhost:3000"
+  ],
   "alloworiginregexp": [
-    "https?://localhost.*", 
+    "https://securbankdemo\\.vercel\\.app",
+    "https?://localhost:[0-9]+", 
     "https://.*\\.adobeaemcloud\\.com",
     "https://.*\\.okta\\.com",
     "https://.*\\.oktapreview\\.com",
     "https://.*\\.okta-emea\\.com",
-    "https://.*\\.vercel\\.app",
     "https://.*\\.adobe\\.com"
   ],
   "allowedpaths": [
