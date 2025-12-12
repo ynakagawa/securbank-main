@@ -17,7 +17,7 @@
  *
  */
 
-package com.adobe.aem.summit.2024.react.securbank.core.services;
+package com.adobe.aem.summit.s2024.react.securbank.core.services;
 
 import org.osgi.annotation.versioning.ProviderType;
 

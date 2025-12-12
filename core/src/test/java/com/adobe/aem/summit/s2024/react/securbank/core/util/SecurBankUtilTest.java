@@ -17,7 +17,7 @@
  *
  */
 
-package com.adobe.aem.summit.2024.react.securbank.core.util;
+package com.adobe.aem.summit.s2024.react.securbank.core.util;
 
 import org.junit.Test;
 
@@ -89,7 +89,7 @@ public class SecurBankUtilTest {
 
     @Test
     public void testFormatCurrency_DecimalPrecision() {
-        assertEquals("$100.99", SecurBankUtil.formatCurrency(100.999));
+        assertEquals("$101.00", SecurBankUtil.formatCurrency(100.999)); // rounds up
         assertEquals("$100.01", SecurBankUtil.formatCurrency(100.009));
     }
 }

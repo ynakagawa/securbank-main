@@ -31,7 +31,7 @@
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
     <artifactId>react.securbank.core</artifactId>
-    <packaging>bundle</packaging>
+    <packaging>jar</packaging>
     <name>React App - SecurBank Core</name>
     <description>SecurBank Core OSGi bundle containing AEM server-side logic</description>
 
@@ -47,15 +47,33 @@
             <plugin>
                 <groupId>biz.aQute.bnd</groupId>
                 <artifactId>bnd-maven-plugin</artifactId>
+                <version>${bnd.version}</version>
+                <executions>
+                    <execution>
+                        <id>bnd-process</id>
+                        <goals>
+                            <goal>bnd-process</goal>
+                        </goals>
+                    </execution>
+                </executions>
                 <configuration>
                     <bnd><![CDATA[
 Bundle-Name: SecurBank Core
 Bundle-Description: SecurBank Core OSGi bundle containing AEM server-side logic
-Bundle-SymbolicName: com.adobe.aem.summit.2024.react.securbank.core
+Bundle-SymbolicName: com.adobe.aem.summit.s2024.react.securbank.core
 Service-Component: OSGI-INF/*.xml
-Sling-Model-Packages: com.adobe.aem.summit.2024.react.securbank.core
+Sling-Model-Packages: com.adobe.aem.summit.s2024.react.securbank.core
 Import-Package: *
                      ]]></bnd>
+                </configuration>
+            </plugin>
+            <plugin>
+                <groupId>org.apache.maven.plugins</groupId>
+                <artifactId>maven-jar-plugin</artifactId>
+                <configuration>
+                    <archive>
+                        <manifestFile>${project.build.outputDirectory}/META-INF/MANIFEST.MF</manifestFile>
+                    </archive>
                 </configuration>
             </plugin>
             <plugin>

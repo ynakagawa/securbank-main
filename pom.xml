@@ -74,6 +74,13 @@
           </execution>
         </executions>
       </plugin>
+      <!-- BND Maven Plugin - needed for bundle packaging type -->
+      <plugin>
+        <groupId>biz.aQute.bnd</groupId>
+        <artifactId>bnd-maven-plugin</artifactId>
+        <version>${bnd.version}</version>
+        <extensions>true</extensions>
+      </plugin>
     </plugins>
     <pluginManagement>
       <plugins>
@@ -186,6 +193,7 @@
           <groupId>biz.aQute.bnd</groupId>
           <artifactId>bnd-maven-plugin</artifactId>
           <version>${bnd.version}</version>
+          <extensions>true</extensions>
         </plugin>
         <!-- Maven Compiler Plugin -->
         <plugin>

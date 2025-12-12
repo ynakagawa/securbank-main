@@ -17,9 +17,9 @@
  *
  */
 
-package com.adobe.aem.summit.2024.react.securbank.core.services.impl;
+package com.adobe.aem.summit.s2024.react.securbank.core.services.impl;
 
-import com.adobe.aem.summit.2024.react.securbank.core.services.SecurBankService;
+import com.adobe.aem.summit.s2024.react.securbank.core.services.SecurBankService;
 import org.junit.Before;
 import org.junit.Test;
 

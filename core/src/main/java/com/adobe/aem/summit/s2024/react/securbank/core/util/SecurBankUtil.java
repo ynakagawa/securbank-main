@@ -17,7 +17,7 @@
  *
  */
 
-package com.adobe.aem.summit.2024.react.securbank.core.util;
+package com.adobe.aem.summit.s2024.react.securbank.core.util;
 
 /**
  * Utility class for SecurBank operations.
@@ -77,8 +77,10 @@ public final class SecurBankUtil {
             return false;
         }
 
-        // Simple email validation
-        return email.contains("@") && email.contains(".") && email.length() >= 5;
+        String trimmed = email.trim();
+        // Simple email validation - must have @, dot after @, and minimum length
+        int atIndex = trimmed.indexOf("@");
+        return atIndex > 0 && trimmed.contains(".") && trimmed.lastIndexOf(".") > atIndex && trimmed.length() >= 5;
     }
 
     /**
