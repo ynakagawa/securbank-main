@@ -22,7 +22,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.summit.2024</groupId>
-        <artifactId>l425</artifactId>
+        <artifactId>react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -30,10 +30,10 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>l425.securbank.content</artifactId>
+    <artifactId>react.securbank.content</artifactId>
     <packaging>content-package</packaging>
-    <name>Adobe Summit 2024 L425 - SecurBank Content</name>
-    <description>SecurBank Content Package for Adobe Summit 2024 L425</description>
+    <name>React App - SecurBank Content</name>
+    <description>SecurBank Content Package for React App</description>
 
     <!-- ====================================================================== -->
     <!-- B U I L D   D E F I N I T I O N                                        -->
@@ -50,7 +50,7 @@
                         <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
                     <group>com.adobe.aem.summit.2024</group>
-                    <name>l425.securbank.content</name>
+                    <name>react.securbank.content</name>
                     <packageType>content</packageType>
                     <validatorsSettings>
                         <jackrabbit-filter>
@@ -62,7 +62,7 @@
                     <dependencies>
                         <dependency>
                             <groupId>com.adobe.aem.summit.2024</groupId>
-                            <artifactId>l425.securbank.base</artifactId>
+                            <artifactId>react.securbank.base</artifactId>
                         </dependency>
                     </dependencies>
                 </configuration>
@@ -80,7 +80,7 @@
     <dependencies>
         <dependency>
             <groupId>com.adobe.aem.summit.2024</groupId>
-            <artifactId>l425.securbank.base</artifactId>
+            <artifactId>react.securbank.base</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>

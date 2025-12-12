@@ -7,7 +7,7 @@
     <!-- ====================================================================== -->
     <parent>
         <groupId>com.adobe.aem.summit.2024</groupId>
-        <artifactId>l425</artifactId>
+        <artifactId>react</artifactId>
         <version>1.0.0-SNAPSHOT</version>
         <relativePath>../pom.xml</relativePath>
     </parent>
@@ -15,9 +15,9 @@
     <!-- ====================================================================== -->
     <!-- P R O J E C T  D E S C R I P T I O N                                   -->
     <!-- ====================================================================== -->
-    <artifactId>l425.ui.apps.structure</artifactId>
+    <artifactId>react.ui.apps.structure</artifactId>
     <packaging>content-package</packaging>
-    <name>Adobe Summit 2024 L425 - Repository Structure Package</name>
+    <name>React App - Repository Structure Package</name>
     <description>
         Empty package that defines the structure of the Adobe Experience Manager repository the Code packages in this project deploy into.
         Any roots in the Code packages of this project should have their parent enumerated in the Filters list below.
