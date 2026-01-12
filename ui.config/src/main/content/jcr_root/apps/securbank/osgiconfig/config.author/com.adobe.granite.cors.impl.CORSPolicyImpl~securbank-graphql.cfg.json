@@ -1,6 +1,7 @@
 {
   "alloworigin": [
     "https://securbankdemo.vercel.app",
+    "https://secur-bank-git-main-yuji-nakagawas-projects.vercel.app/",
     "https://localhost:3000"
   ],
   "alloworiginregexp": [
