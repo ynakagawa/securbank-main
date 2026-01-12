@@ -40,5 +40,5 @@
   "supportedmethods": ["GET", "HEAD", "POST", "OPTIONS"],
   "maxage:Integer": 1800,
   "supportscredentials": true,
-  "exposedheaders": [""]
+  "exposedheaders": []
 }
