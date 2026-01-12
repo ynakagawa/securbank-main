@@ -1,28 +1,18 @@
 {
   "alloworigin": [
     "https://securbankdemo.vercel.app",
-    "https://trial-5076725.okta.com", 
-    "https://author-p18253-e1553077.adobeaemcloud.com",
-    "https://author-p18253-e46622.adobeaemcloud.com",
-    "https://publish-p18253-e46622.adobeaemcloud.com",
-    "https://experience.adobe.com",
     "https://localhost:3000"
   ],
   "alloworiginregexp": [
     "https://securbankdemo\\.vercel\\.app",
-    "https?://localhost:[0-9]+", 
-    "https://.*\\.adobeaemcloud\\.com",
-    "https://.*\\.okta\\.com",
-    "https://.*\\.oktapreview\\.com",
-    "https://.*\\.okta-emea\\.com",
-    "https://.*\\.adobe\\.com"
+    "https?://localhost:[0-9]+"
   ],
   "allowedpaths": [
     "/graphql/execute.json.*",
-    "/content/_cq_graphql/securbank/endpoint.json",
+    "/content/.*",
     "/content/experience-fragments/.*",
-    "/adobe/repository/content/dam.*",
-    "/content/dam.*"
+    "/adobe/repository/content/dam/.*",
+    "/content/dam/.*"
   ],
   "supportedheaders": [
     "Origin",
@@ -31,11 +21,11 @@
     "Content-Type",
     "Access-Control-Request-Method",
     "Access-Control-Request-Headers",
-    "Access-Control-Allow-Origin",
     "Authorization",
-    "x-api-key"
+    "x-api-key",
+    "CSRF-Token"
   ],
-  "supportedmethods": ["GET", "HEAD", "POST", "OPTIONS"],
+  "supportedmethods": ["GET", "HEAD", "POST","OPTIONS"],
   "maxage:Integer": 1800,
   "supportscredentials": true,
   "exposedheaders": []
