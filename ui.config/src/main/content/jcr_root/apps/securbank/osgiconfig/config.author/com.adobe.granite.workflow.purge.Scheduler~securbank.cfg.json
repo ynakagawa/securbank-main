@@ -1,0 +1,13 @@
+{
+  "scheduledpurge.workflowStatus": [
+    "COMPLETED",
+    "RUNNING",
+    "SUSPENDED",
+    "ABORTED",
+    "FAILED"
+  ],
+  "scheduledpurge.name": "Workflow Purge",
+  "scheduledpurge.daysold": 5,
+  "scheduledpurge.modelIds": [],
+  "scheduledpurge.purgePackagePayload": true
+}

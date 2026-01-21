@@ -36,6 +36,11 @@
                         <!-- /apps root -->
                         <filter><root>/apps</root></filter>
                         <filter><root>/apps/securbank</root></filter>
+                        <!-- Add maintenance window filters -->
+                        <filter><root>/apps/settings/granite</root></filter>
+                        <filter><root>/apps/settings/granite/operations</root></filter>
+                        <filter><root>/apps/settings/granite/operations/maintenance</root></filter>
+                        <filter><root>/apps/settings/granite/operations/maintenance/granite_weekly</root></filter>
                     </filters>
                 </configuration>
             </plugin>

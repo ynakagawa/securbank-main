@@ -12,6 +12,7 @@
     <module>core</module>
     <module>securbank.base</module>
     <module>securbank.content</module>
+    <module>ui.apps</module>
     <module>ui.apps.structure</module>
     <module>ui.config</module>
   </modules>
@@ -222,11 +223,18 @@
   </build>
   <dependencyManagement>
     <dependencies>
-      <!-- AEM API -->
+      <!-- AEM Cloud Service SDK API -->
       <dependency>
         <groupId>com.adobe.aem</groupId>
-        <artifactId>uber-jar</artifactId>
-        <version>6.5.19</version>
+        <artifactId>aem-sdk-api</artifactId>
+        <version>2025.12.23862.20251217T163328Z-251200</version>
+        <scope>provided</scope>
+      </dependency>
+      <!-- AEM Forms SDK API -->
+      <dependency>
+        <groupId>com.adobe.aem</groupId>
+        <artifactId>aem-forms-sdk-api</artifactId>
+        <version>2025.12.15.00-251200</version>
         <scope>provided</scope>
       </dependency>
       <!-- Sling API -->

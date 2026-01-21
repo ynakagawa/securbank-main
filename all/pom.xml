@@ -72,6 +72,12 @@
                             <type>zip</type>
                             <target>/apps/securbank/install</target>
                         </embedded>
+                        <embedded>
+                            <groupId>com.adobe.aem.summit.2024</groupId>
+                            <artifactId>react.ui.apps</artifactId>
+                            <type>zip</type>
+                            <target>/apps/securbank/install</target>
+                        </embedded>
                     </embeddeds>
                 </configuration>
             </plugin>
@@ -188,6 +194,12 @@
         <dependency>
             <groupId>com.adobe.aem.summit.2024</groupId>
             <artifactId>react.ui.config</artifactId>
+            <version>${project.version}</version>
+            <type>zip</type>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem.summit.2024</groupId>
+            <artifactId>react.ui.apps</artifactId>
             <version>${project.version}</version>
             <type>zip</type>
         </dependency>
