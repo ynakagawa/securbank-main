@@ -133,10 +133,15 @@ Import-Package: *
             <scope>provided</scope>
         </dependency>
 
-        <!-- AEM API -->
+        <!-- AEM Cloud Service SDK API -->
         <dependency>
             <groupId>com.adobe.aem</groupId>
-            <artifactId>uber-jar</artifactId>
+            <artifactId>aem-sdk-api</artifactId>
+            <scope>provided</scope>
+        </dependency>
+        <dependency>
+            <groupId>com.adobe.aem</groupId>
+            <artifactId>aem-forms-sdk-api</artifactId>
             <scope>provided</scope>
         </dependency>
 
