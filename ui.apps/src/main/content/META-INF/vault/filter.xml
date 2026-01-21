@@ -1,5 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <workspaceFilter version="1.0">
     <!-- Add maintenance window configuration -->
+    <filter root="/apps/settings"/>
+    <filter root="/apps/settings/granite"/>
+    <filter root="/apps/settings/granite/operations"/>
+    <filter root="/apps/settings/granite/operations/maintenance"/>
     <filter root="/apps/settings/granite/operations/maintenance/granite_weekly"/>
 </workspaceFilter>
