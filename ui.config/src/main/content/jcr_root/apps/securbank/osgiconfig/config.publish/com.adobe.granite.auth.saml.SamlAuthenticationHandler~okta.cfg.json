@@ -18,7 +18,9 @@
         "displayName"
     ],
     "addGroupMemberships": true,
-     "defaultGroups": ["ford-group"]
+    "defaultGroups": ["ford-group"],
+    "service.ranking": 5000,
+    "defaultRedirectUrl": "/content/asset-share-commons/en/light.html"
 }
 
  
