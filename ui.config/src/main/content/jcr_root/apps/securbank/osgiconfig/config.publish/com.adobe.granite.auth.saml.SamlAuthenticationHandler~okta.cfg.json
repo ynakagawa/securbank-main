@@ -1,7 +1,6 @@
 {
     "path": [
-        "/content/asset-share-commons",
-        "/content/asset-share-commons/*"
+        "/content/yuji"
     ],
     "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certalias___1769037257043]",
     "idpIdentifier": "http://www.okta.com/exkrwzfl7beXhoYjY697",
