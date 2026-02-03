@@ -1,6 +1,6 @@
 {
     "path": [
-        "/content/yuji"
+        "/content/asset-share-commons/en/3m"
     ],
     "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certalias___1769037257043]",
     "idpIdentifier": "http://www.okta.com/exkrwzfl7beXhoYjY697",
@@ -9,7 +9,7 @@
     "useEncryption": false,
     "userIDAttribute": "email",
     "createUser": true,
-    "userIntermediatePath": "ford/okta",
+    "userIntermediatePath": "auth/okta",
     "synchronizeAttributes": [
         "email",
         "givenName",
@@ -17,7 +17,7 @@
         "displayName"
     ],
     "addGroupMemberships": true,
-    "defaultGroups": ["ford-group"],
+    "defaultGroups": ["auth-group"],
     "service.ranking": 5000,
     "defaultRedirectUrl": "/content/asset-share-commons/en/light.html"
 }
