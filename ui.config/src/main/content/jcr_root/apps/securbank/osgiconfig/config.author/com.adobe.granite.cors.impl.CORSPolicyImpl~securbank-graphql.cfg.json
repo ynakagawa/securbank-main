@@ -2,10 +2,15 @@
   "alloworigin": [
     "https://securbankdemo.vercel.app",
     "https://secur-bank-git-main-yuji-nakagawas-projects.vercel.app",
-    "https://localhost:3000"
+    "https://localhost:3000",
+    "https://localhost:4200",
+    "https://securbankdemo.vercel.app",
+    "https://securbank-angular.vercel.app",
+    "https://secur-bank-git-main-yuji-nakagawas-projects.vercel.app"
   ],
   "alloworiginregexp": [
     "https://securbankdemo\\.vercel\\.app",
+    "https://securbank-angular\\.vercel\\.app",
     "https?://localhost:[0-9]+"
   ],
   "allowedpaths": [

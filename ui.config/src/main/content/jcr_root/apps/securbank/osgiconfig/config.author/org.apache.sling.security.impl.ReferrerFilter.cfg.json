@@ -1,0 +1,20 @@
+{
+  "allow.empty": true,
+  "allow.hosts": [
+    "localhost",
+    "127.0.0.1",
+    "securbankdemo.vercel.app",
+    "securbank-angular.vercel.app",
+    "secur-bank-git-main-yuji-nakagawas-projects.vercel.app",
+    "author-p18253-e46622.adobeaemcloud.com",
+    "publish-p18253-e46622.adobeaemcloud.com",
+    "preview-p18253-e46622.adobeaemcloud.com"
+  ],
+  "allow.hosts.regexp": [
+    "https://.*\\.adobeaemcloud\\.com",
+    "https://.*\\.vercel\\.app",
+    "https?://localhost([^/]*)?"
+  ],
+  "filter.methods": ["POST", "PUT", "DELETE", "PATCH"],
+  "exclude.agents.regexp": [".*sling.*", ".*granite.*", ".*health.*check.*"]
+}
