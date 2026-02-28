@@ -54,7 +54,8 @@
                     <!-- skip sub package validation for now as some vendor packages like CIF apps will not pass -->
                     <skipSubPackageValidation>true</skipSubPackageValidation>
                     <properties>
-                        <cloudManagerTarget>all</cloudManagerTarget>
+                        <!-- Deployed via root all package; skip to avoid duplicate in Cloud Manager -->
+                        <cloudManagerTarget>none</cloudManagerTarget>
                     </properties>
                     <embeddeds>
                         <embedded>
