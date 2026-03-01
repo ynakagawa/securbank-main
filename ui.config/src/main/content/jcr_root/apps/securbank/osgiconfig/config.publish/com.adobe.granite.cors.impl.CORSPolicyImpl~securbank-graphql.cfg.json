@@ -1,6 +1,7 @@
 {
   "alloworigin": [
     "https://securbankdemo.vercel.app",
+    "https://securbank-angular.vercel.app",
     "$[env:SAML_IDP_ORIGINldefault=https://trial-5076725.okta.com]", 
     "https://publish-p18253-e46622.adobeaemcloud.com",
     "https://preview-p18253-e46622.adobeaemcloud.com",
@@ -9,6 +10,7 @@
   ],
   "alloworiginregexp": [
     "https://securbankdemo\\.vercel\\.app",
+    "https://securbank-angular\\.vercel\\.app",
     "https?://localhost:[0-9]+", 
     "https://.*\\.adobeaemcloud\\.com",
     "https://.*\\.okta\\.com",
