@@ -6,18 +6,21 @@
     "https://localhost:4200",
     "https://securbankdemo.vercel.app",
     "https://securbank-angular.vercel.app",
-    "https://secur-bank-git-main-yuji-nakagawas-projects.vercel.app"
+    "https://secur-bank-git-main-yuji-nakagawas-projects.vercel.app",
+    "https://experience.adobe.com"
   ],
   "alloworiginregexp": [
     "https://securbankdemo\\.vercel\\.app",
     "https://securbank-angular\\.vercel\\.app",
-    "https?://localhost:[0-9]+"
+    "https?://localhost:[0-9]+",
+    "https://experience\\.adobe\\.com"
   ],
   "allowedpaths": [
     "/graphql/execute.json.*",
     "/content/.*",
     "/content/experience-fragments/.*",
     "/adobe/repository/content/dam/.*",
+    "/adobe/repository/.*",
     "/content/dam/.*"
   ],
   "supportedheaders": [
