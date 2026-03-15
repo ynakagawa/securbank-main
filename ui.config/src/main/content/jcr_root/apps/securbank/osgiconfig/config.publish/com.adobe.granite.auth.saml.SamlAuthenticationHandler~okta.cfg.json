@@ -2,12 +2,12 @@
     "path": [
         "/content/asset-share-commons/en/3m"
     ],
-    "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certalias___1769037257043]",
+    "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certAlias___1773528230660]",
     "idpIdentifier": "http://www.okta.com/exkzf4yc73pxMdZcq697",
     "idpUrl": "https://trial-5076725.okta.com/app/trial-5076725_assetsharecommons_1/exkzf4yc73pxMdZcq697/sso/saml",
     "serviceProviderEntityId": "https://publish-p18253-e46622.adobeaemcloud.com",
     "useEncryption": false,
-    "defaultRedirectUrl": "https://publish-p18253-e1553077.adobeaemcloud.com/content/asset-share-commons/us/en/3m.html",
+    "defaultRedirectUrl": "https://publish-p18253-e46622.adobeaemcloud.com/content/asset-share-commons/en/3m.html",
     "userIDAttribute": "email",
     "createUser": true,
     "userIntermediatePath": "auth/okta",
