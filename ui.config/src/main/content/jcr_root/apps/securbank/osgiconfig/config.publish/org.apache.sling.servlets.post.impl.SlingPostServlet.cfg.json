@@ -1,0 +1,14 @@
+{
+  "sling.servlet.paths": [
+    "/content",
+    "/apps",
+    "/etc",
+    "/bin",
+    "/libs",
+    "/var",
+    "/home",
+    "/tmp",
+    "/dam",
+    "/mnt"
+  ]
+}
