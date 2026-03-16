@@ -8,6 +8,7 @@
     "idpIdentifier": "http://www.okta.com/exkzf4yc73pxMdZcq697",
     "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certAlias___1773592804448]",
     "saml.sp.use.relaystate": true,
+    "saml_request_path": "/content/asset-share-commons/en/3m.html",
     "useEncryption": false,
     "defaultRedirectUrl": "https://publish-p18253-e46622.adobeaemcloud.com/content/asset-share-commons/en/3m.html?test=2",
     "userIDAttribute": "",
