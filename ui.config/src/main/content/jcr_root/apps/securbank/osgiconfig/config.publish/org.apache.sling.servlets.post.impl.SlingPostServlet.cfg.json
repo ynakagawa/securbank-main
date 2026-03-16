@@ -1,6 +1,5 @@
 {
   "sling.servlet.paths": [
-    "/content",
     "/apps",
     "/etc",
     "/bin",
