@@ -7,21 +7,21 @@
     "idpUrl": "https://trial-5076725.okta.com/app/trial-5076725_assetsharecommons_1/exkzf4yc73pxMdZcq697/sso/saml",
     "idpIdentifier": "http://www.okta.com/exkzf4yc73pxMdZcq697",
     "idpCertAlias": "$[env:SAML_IDP_CERT_ALIAS;default=certAlias___1773592804448]",
-    "serviceProviderEntityId": "https://publish-p18253-e46622.adobeaemcloud.com",
+    "saml.sp.use.relaystate": true,
     "useEncryption": false,
-    "defaultRedirectUrl": "https://publish-p18253-e46622.adobeaemcloud.com/content/asset-share-commons/en/3m.html",
+    "defaultRedirectUrl": "https://publish-p18253-e46622.adobeaemcloud.com/content/asset-share-commons/en/3m.html?test=2",
     "userIDAttribute": "",
     "createUser": true,
     "userIntermediatePath": "okta/users",
     "synchronizeAttributes": [
-        "email",
-        "givenName",
-        "familyName",
-        "displayName"
+        "firstName=profile/givenName",
+        "lastName=profile/familyName",
+        "email=profile/email"
     ],
     "addGroupMemberships": true,
     "defaultGroups": ["asset-share-users"],
-    "service.ranking": 5000
+    "idpHttpRedirect": false,
+    "service.ranking": 5002
 }
 
  
